@@ -196,6 +196,9 @@
 
 .image {
   border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 
 .div_zero {
@@ -419,11 +422,13 @@
 .image-2 {
   display: block;
   max-width: 729px;
+  max-height: 500px;
   margin-right: auto;
   margin-left: auto;
   border-radius: 10px;
   width:98%;
-  height: auto;
+  object-fit: cover;
+  object-position: top;
 }
 
 .image-3 {
